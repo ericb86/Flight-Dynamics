@@ -2,11 +2,11 @@
 
 A Python-based flight simulation that models the 6-degree-of-freedom motion of a small aircraft, including pitch, roll, yaw dynamics, and 3D trajectory visualization.
 
-## 🎯 Project Overview
+## Project Overview
 
 This project simulates the flight dynamics of a small aircraft using Newton's laws of motion and Euler angles. It provides real-time visualization of the aircraft's trajectory, orientation, and flight parameters.
 
-## 🚀 Features
+## Features
 
 - **6-DOF Flight Simulation**: Models translation and rotation in 3D space
 - **Control Input System**: Simulates elevator, aileron, rudder, and throttle inputs
@@ -14,7 +14,7 @@ This project simulates the flight dynamics of a small aircraft using Newton's la
 - **Flight Data Analytics**: Time-series analysis of altitude, speed, and orientation
 - **Aerodynamic Modeling**: Basic aerodynamic forces and moments
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.10+
 - NumPy
@@ -23,7 +23,7 @@ This project simulates the flight dynamics of a small aircraft using Newton's la
 - Plotly
 - Pandas
 
-## 🛠️ Installation
+## Installation
 
 1. Clone the repository:
 ```bash
@@ -43,7 +43,7 @@ venv\Scripts\activate  # Windows
 pip install -r requirements.txt
 ```
 
-## 🏃‍♂️ Quick Start
+## Quick Start
 
 ```python
 from flight_simulator import FlightSimulator
@@ -59,7 +59,7 @@ viz.plot_3d_trajectory()
 viz.plot_flight_parameters()
 ```
 
-## 📊 Example Output
+## Example Output
 
 The simulation generates:
 - 3D flight trajectory visualization
@@ -67,7 +67,7 @@ The simulation generates:
 - Control input analysis
 - Performance metrics
 
-## 🔧 Project Structure
+## Project Structure
 
 ```
 flight-dynamics/
@@ -81,7 +81,7 @@ flight-dynamics/
 └── requirements.txt        # Dependencies
 ```
 
-## 🧮 Physics Implementation
+## Physics Implementation
 
 The simulation implements:
 - **Translational Motion**: F = ma (forces → acceleration → velocity → position)
@@ -90,14 +90,14 @@ The simulation implements:
 - **Aerodynamic Forces**: Lift, drag, thrust, weight
 - **Control Surfaces**: Elevator, aileron, rudder effects
 
-## 📈 Technologies Used
+## Technologies Used
 
 - **Simulation**: NumPy, SciPy (numerical integration)
 - **Visualization**: Matplotlib, Plotly (3D plotting, animation)
 - **Data Analysis**: Pandas (time-series analysis)
 - **Mathematics**: Linear algebra, differential equations, Euler angles
 
-## 🎓 Learning Outcomes
+## Learning Outcomes
 
 - Flight dynamics and aerodynamics principles
 - Numerical simulation techniques
@@ -105,7 +105,7 @@ The simulation implements:
 - Time-series data analysis
 - Object-oriented programming in scientific computing
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] Real aircraft parameters (Cessna 172, Piper Cherokee)
 - [ ] Advanced aerodynamic models (stall, ground effect)
@@ -114,15 +114,13 @@ The simulation implements:
 - [ ] Integration with X-Plane or FlightGear
 - [ ] Weather effects simulation
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 📧 Contact
-
-Your Name - your.email@example.com
+## Contact
 Project Link: https://github.com/yourusername/flight-dynamics
